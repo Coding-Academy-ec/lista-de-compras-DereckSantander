@@ -3,6 +3,7 @@
 
 compras = input("Ingrese una lista de compras: ")
 productos = compras.split(", ")
+productos= convertir_lista_a_tupla(productos)
 print(f"Los productos en la lista de compras son: {productos}")
 
 # Convertir la lista de compras en una tupla
